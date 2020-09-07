@@ -1,8 +1,8 @@
 import {PlatformTest} from "@tsed/common";
 
-import {PlatformExpress} from "./components/PlatformExpress";
+import {PlatformKoa} from "./components/PlatformKoa";
 
-PlatformTest.platformBuilder = PlatformExpress;
+PlatformTest.platformBuilder = PlatformKoa;
 
 // interfaces
 export * from "./interfaces";
@@ -14,4 +14,4 @@ export * from "./decorators";
 export * from "./services";
 
 // components
-export * from "./components/PlatformExpress";
+export * from "./components/PlatformKoa";

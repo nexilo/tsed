@@ -1,6 +1,5 @@
-import {Inject, PlatformApplication, PlatformHandler, PlatformStaticsOptions} from "@tsed/common";
+import {Inject, PlatformHandler} from "@tsed/common";
 import * as Express from "express";
-import {staticsMiddleware} from "../middlewares/staticsMiddleware";
 import {PlatformExpressDriver} from "./PlatformExpressDriver";
 
 declare global {
